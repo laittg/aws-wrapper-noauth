@@ -3,6 +3,7 @@ module.exports = {
     getSecretValue: require('./lib/SecretsManager/getSecretValue')
   },
   SSM: {
-    getParameter: require('./lib/SSM/getParameter')
+    getParameter: require('./lib/SSM/getParameter'),
+    getParameters: require('./lib/SSM/getParametes')
   }
 }
