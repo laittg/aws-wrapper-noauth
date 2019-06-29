@@ -4,6 +4,6 @@ module.exports = {
   },
   SSM: {
     getParameter: require('./lib/SSM/getParameter'),
-    getParameters: require('./lib/SSM/getParametes')
+    getParameters: require('./lib/SSM/getParameters')
   }
 }
